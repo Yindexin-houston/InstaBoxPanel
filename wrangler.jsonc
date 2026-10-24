@@ -6,6 +6,7 @@
   "workers_dev": true,
   "preview_urls": false,
   "triggers": { "crons": ["* * * * *"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "instabox-panel-db", "database_id": "1d183e97-7b78-4d74-84ce-602c700adb1d" }],
   "assets": {
     "directory": "./dist/client",
     "binding": "ASSETS",
